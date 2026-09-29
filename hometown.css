@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,  -45%);
+    margin: 0 10%;
+    width: 80%;
+}
+
+.main{
+    display: flex;
+    z-index: -1;
+}
+
+img{
+    height: 70dvh;
+}
+
+.main .desc{
+    margin: 0 5%;
+    font-size: 1.2vw;
+    font-size: 1.2vw;
+}
+
+.desc h1{
+    font-weight: 500;
+    margin: 0;
+}
+
+.desc h2{
+    font-weight: 500;
+    margin: 0;
+    font-size: xxx-large;
+}
+
+.desc article{
+    margin-top: 2%;
+}
