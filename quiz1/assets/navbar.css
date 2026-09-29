@@ -1,22 +1,22 @@
 /* Navbar styling start */
 .header {
   display: flex;
-  align-items: center;     
-  justify-content: space-between;  
-  background-color: #F8F9FA;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
   opacity: 65%;
   padding: 5px 1vw;
   margin: 5vh 0;
   border-style: solid;
   border-radius: 20px;
-  border-color: #1E1E1E;
+  border-color: #1e1e1e;
   border-width: 1px;
   width: 90%;
   height: 65px;
   position: absolute;
   left: 5%;
   box-sizing: border-box;
-  z-index: 100000;    
+  z-index: 100000;
 }
 
 .header a {
@@ -39,6 +39,7 @@
 }
 
 .header a.active {
-  background-color: #F5F5F5;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 /* Navbar styling end */
